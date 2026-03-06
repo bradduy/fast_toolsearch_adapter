@@ -4,6 +4,8 @@
 A production-ready Python library inspired by GPT-5.4’s Tool Search capability.  
 Rather than attaching every tool schema to every request, it enables dynamic tool discovery: the model requests relevant tools at runtime, receives only the matched schemas, and then invokes the selected tool—reducing prompt bloat, improving cache efficiency, and keeping integrations scalable.
 
+![Tool Search Adapter Banner](./assets/banner.png)
+
 ## How It Works
 
 ```
